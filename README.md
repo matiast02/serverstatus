@@ -4,5 +4,7 @@ A BASH Script to check server and services status on a LAMP enviroment with DEBI
 To run the script corectly need to be root
 
 ```
+sudo ./serverstatus.sh 
+OR
 sudo bash serverstatus.sh
 ```
