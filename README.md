@@ -18,3 +18,14 @@ sudo ./serverstatus.sh
 ```
 sudo bash serverstatus.sh
 ```
+
+alternatively an alias can be added to run the command from anywhere and persist it between different shell sessions
+
+1- Open $HOME/.bashrc with your favorite text editor and add the alias to the bottom of file.
+```
+alias serverstatus="sudo bash $HOME/serverstatus.sh"
+```
+2- run 
+```
+source $HOME/.bashrc
+```
