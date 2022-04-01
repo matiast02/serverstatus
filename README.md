@@ -19,9 +19,9 @@ sudo ./serverstatus.sh
 sudo bash serverstatus.sh
 ```
 
-alternatively an alias can be added to run the command from anywhere and persist it between different shell sessions
+## Alternatively an alias can be added to run the command from anywhere and persist it between different shell sessions
 
-1- Open $HOME/.bashrc with your favorite text editor and add the alias to the bottom of file.
+1- Open $HOME/.bashrc with your favorite text editor and add the alias to the bottom of file. **PD:** _(if your serverstatus.sh file is in another place, use the correct file path. Ex: serverstatus.sh is in home/user/scripts -> alias serverstatus="sudo bash $HOME/scripts/serverstatus.sh)_
 ```
 alias serverstatus="sudo bash $HOME/serverstatus.sh"
 ```
